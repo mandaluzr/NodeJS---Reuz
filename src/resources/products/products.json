@@ -1,0 +1,90 @@
+[
+     {
+     "name": "Office chair",
+     "description": "Luxury",
+     "urlImage": "https://images.unsplash.com/photo-1551459456-12c91f20a130?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1001&q=80",
+     "price": 949,
+     "discount":0,
+     "status": "active",
+     "tags_id": [],
+     "users_id": "60104db6a494ec2ddfa94dae",
+     "product_subcategory_id": "6012edeff01d66153209f80e"
+     },
+     {
+     "name": "Shoes",
+     "description": "Zapatillas en piel Vans",
+     "urlImage": "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDEzfFM0TUtMQXNCQjc0fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+     "price": 949,
+     "discount":0,
+     "status": "active",
+     "tags_id": [],
+     "users_id": "60104db6a494ec2ddfa94dae",
+     "product_subcategory_id": "6012edeff01d66153209f812"
+     },
+     {
+     "name": "Joystick",
+     "description": "Mando inalambrico PS5",
+     "urlImage": "https://images.unsplash.com/photo-1610505220710-32ebd59dce2c?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDV8Sjl5clBhSFhSUVl8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+     "price": 949,
+     "discount":0,
+     "status": "active",
+     "tags_id": [],
+     "users_id": "60104db6a494ec2ddfa94dae",
+     "product_subcategory_id": "6012edeff01d66153209f815"
+     },
+     {
+     "name": "Smart watch",
+     "description": "Smartwatch Apple color negro",
+     "urlImage": "https://images.unsplash.com/photo-1579721840641-7d0e67f1204e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=638&q=80",
+     "price": 949,
+     "discount":0,
+     "status": "active",
+     "tags_id": [],
+     "users_id": "6011cb729bb54c694dc6664b",
+     "product_subcategory_id": "6012edeff01d66153209f810"
+     },
+     {
+     "name": "Camera",
+     "description": "Camara de fotos vintage",
+     "urlImage": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDQwfGJEbzQ4Y1Vod25ZfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+     "price": 949,
+     "discount":0,
+     "status": "active",
+     "tags_id": [],
+     "users_id": "6011cb729bb54c694dc6664b",
+     "product_subcategory_id": "6012edeff01d66153209f815"
+     },
+     {
+     "name": "Lampara",
+     "description": "Lampara digital",
+     "urlImage": "https://images.unsplash.com/photo-1589647312696-ec8237db05f9?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTN8fG9iamVjdHN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+     "price": 949,
+     "discount":0,
+     "status": "active",
+     "tags_id": [],
+     "users_id": "6011cba29bb54c694dc6664c",
+     "product_subcategory_id": "6012edeff01d66153209f80c"
+     },
+     {
+     "name": "Harley",
+     "description": "Motobike",
+     "urlImage": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8YmlrZXN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+     "price": 949,
+     "discount":0,
+     "status": "active",
+     "tags_id": [],
+     "users_id": "6011cba29bb54c694dc6664c",
+     "product_subcategory_id": "6012edeff01d66153209f80b"
+     },
+     {
+      "name": "Bicycle",
+      "description": "Electric",
+     "urlImage": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8YmljeWNsZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+     "price": 949,
+     "discount":0,
+     "status": "active",
+     "tags_id": [],
+     "users_id": "6011cbcd9bb54c694dc6664d",
+     "product_subcategory_id": "6012edeff01d66153209f809"
+     }
+ ]

@@ -1,0 +1,78 @@
+[
+    {
+     "name": "Compacto",
+     "categories_id":"6011d2a878d6ec7c6f7acc6a"
+    },
+    {
+      "name": "Sedan",
+      "categories_id":"6011d2a878d6ec7c6f7acc6a"
+    },
+    {
+      "name": "Familiar",
+      "categories_id":"6011d2a878d6ec7c6f7acc6a"
+    },
+    {
+      "name": "Turismo",
+      "categories_id":"6011d2a878d6ec7c6f7acc6a"
+    },
+    {
+      "name": "Rústico",
+      "categories_id":"6011d2a878d6ec7c6f7acc6a"
+    },
+    {
+      "name": "125",
+      "categories_id":"6011d1201883a476e44c31fc"
+    },
+    {
+      "name": "300",
+      "categories_id":"6011d1201883a476e44c31fc"
+    },
+    {
+      "name": "500",
+      "categories_id":"6011d1201883a476e44c31fc"
+    },
+    {
+      "name": "Mueble",
+      "categories_id":"6011d2a878d6ec7c6f7acc6c"
+    },
+    {
+      "name": "Cama",
+      "categories_id":"6011d2a878d6ec7c6f7acc6c"
+    },
+    {
+      "name": "Silla",
+      "categories_id":"6011d2a878d6ec7c6f7acc6c"
+    },
+    {
+      "name": "Mesa",
+      "categories_id":"6011d2a878d6ec7c6f7acc6c"
+    },
+    {
+      "name": "Android",
+      "categories_id":"6011d2a878d6ec7c6f7acc6d"
+    },
+    {
+      "name": "Iphone",
+      "categories_id":"6011d2a878d6ec7c6f7acc6d"
+    },
+    {
+      "name": "Otros",
+      "categories_id":"6011d2a878d6ec7c6f7acc6d"
+    },
+    {
+      "name": "Sobremesa",
+      "categories_id":"6011d2a878d6ec7c6f7acc6e"
+    },
+    {
+      "name": "Portátil",
+      "categories_id":"6011d2a878d6ec7c6f7acc6e"
+    },
+    {
+      "name": "Consola de Videojuego",
+      "categories_id":"6011d2a878d6ec7c6f7acc6e"
+    }
+
+]
+
+
+
