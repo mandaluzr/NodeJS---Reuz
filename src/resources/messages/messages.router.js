@@ -9,13 +9,12 @@ router
   .route('/:id')
   .get(messagesController.getOneMessage)
   .put(messagesController.updateMessage)
-  .delete(messagesController.removeMessage);
+  .delete(messagesController.removeMessage)
 
-
-router.route('/threadmessage').get(messagesController.getAllThreadmessages).post(messagesController.createThreadmessage);
+router.route('/:id/threadmessages').get(messagesController.getAllThreadmessagesByMessage).post(messagesController.createThreadmessage);
 
 router
-  .route('/:id')
+  .route('/:id/threadmessages/:threadmessage_id')
   .get(messagesController.getOneThreadmessage)
   .put(messagesController.updateThreadmessage)
   .delete(messagesController.removeThreadmessage);

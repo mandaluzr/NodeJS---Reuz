@@ -78,6 +78,12 @@ const getAllSubcategories = async () => {
   return await Subcategory.find();
 };
 
+const getAllSubcategoriesByCategory = async (id) => {
+  const subcats = await Subcategory.find({categories_id: id});
+  console.log(subcats, {categories_id: id})
+  return await Subcategory.find({categories_id: id})
+}
+
 const getOneSubcategory = async (id) => {
   let query = { _id: id };
   return await Subcategory.findOne(query);
@@ -113,6 +119,7 @@ module.exports = {
   removeCategory,
   createSubcategory,
   getAllSubcategories,
+  getAllSubcategoriesByCategory,
   getOneSubcategory,
   updateSubcategory,
   removeSubcategory,

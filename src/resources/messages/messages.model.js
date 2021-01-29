@@ -86,6 +86,11 @@ const getAllThreadmessages = async () => {
   return await Threadmessage.find();
 };
 
+const getAllThreadmessagesByMessage = async (id) => {
+  const subcats = await Threadmessage.find({messages_id: id});
+  return await Threadmessage.find({messages_id: id})
+}
+
 const getOneThreadmessage = async (id) => {
   let query = { _id: id };
   return await Threadmessage.findOne(query);
@@ -121,6 +126,7 @@ module.exports = {
   removeMessage,
   createThreadmessage,
   getAllThreadmessages,
+  getAllThreadmessagesByMessage,
   getOneThreadmessage,
   updateThreadmessage,
   removeThreadmessage,

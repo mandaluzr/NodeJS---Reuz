@@ -37,6 +37,11 @@ const getAllMessages = async (req, res) => {
     const messages = await messageModel.all();
     return res.status(200).json(messages);
   };
+
+  const getAllThreadmessagesByMessage = async (req, res) => {
+    const threadmessages = await threadmessageModel.getAllThreadmessagesByMessage(req.params.id);
+    return res.status(200).json(threadmessages);
+  };
   
   const getOneThreadmessage = async (req, res) => {
     const message = await messageModel.get(req.params.id);
@@ -73,6 +78,7 @@ const getAllMessages = async (req, res) => {
     createThreadmessage,
     updateThreadmessage,
     getAllThreadmessages,
+    getAllThreadmessagesByMessage,
     getOneThreadmessage,
     removeThreadmessage,
   };

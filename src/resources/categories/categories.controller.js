@@ -44,7 +44,14 @@ const categoryModel = require('./categories.model');
     const subcategories = await subcategoryModel.getAllSubcategories();
     return res.status(200).json(subcategories);
   };
-  
+
+  const getAllSubcategoriesByCategory = async (req, res) => {
+    console.log(req.params.id)
+    const subcategories = await subcategoryModel.getAllSubcategoriesByCategory(req.params.id);
+    return res.status(200).json(subcategories);
+  };
+
+
   const getOneSubcategory = async (req, res) => {
     const subcategory = await subcategoryModel.getOneSubcategories(req.params.id);
     if (subcategory) {
@@ -72,6 +79,7 @@ const categoryModel = require('./categories.model');
     removeCategory,
     createSubcategory,
     getAllSubcategories,
+    getAllSubcategoriesByCategory,
     getOneSubcategory,
     updateSubcategory,
     removeSubcategory,
