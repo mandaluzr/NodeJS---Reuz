@@ -1,25 +1,14 @@
 [
      {
-     "name": "Office chair",
-     "description": "Luxury",
+     "name": "room chair",
+     "description": "LuxuryRoom",
      "urlImage": "https://images.unsplash.com/photo-1551459456-12c91f20a130?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1001&q=80",
      "price": 949,
      "discount":0,
      "status": "active",
      "tags_id": [],
-     "users_id": "60104db6a494ec2ddfa94dae",
-     "product_subcategory_id": "6012edeff01d66153209f80e"
-     },
-     {
-     "name": "Shoes",
-     "description": "Zapatillas en piel Vans",
-     "urlImage": "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDEzfFM0TUtMQXNCQjc0fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-     "price": 949,
-     "discount":0,
-     "status": "active",
-     "tags_id": [],
-     "users_id": "60104db6a494ec2ddfa94dae",
-     "product_subcategory_id": "6012edeff01d66153209f812"
+     "users_id": "601467625e924c66d9ae53d2",
+     "product_subcategory_id": "60166c9e09a8cb2f5bd6d0c3"
      },
      {
      "name": "Joystick",
@@ -29,8 +18,8 @@
      "discount":0,
      "status": "active",
      "tags_id": [],
-     "users_id": "60104db6a494ec2ddfa94dae",
-     "product_subcategory_id": "6012edeff01d66153209f815"
+     "users_id": "601467625e924c66d9ae53d2",
+     "product_subcategory_id": "60166c9e09a8cb2f5bd6d0ca"
      },
      {
      "name": "Smart watch",
@@ -40,8 +29,8 @@
      "discount":0,
      "status": "active",
      "tags_id": [],
-     "users_id": "6011cb729bb54c694dc6664b",
-     "product_subcategory_id": "6012edeff01d66153209f810"
+     "users_id": "601467625e924c66d9ae53d3",
+     "product_subcategory_id": "60166c9e09a8cb2f5bd6d0c5"
      },
      {
      "name": "Camera",
@@ -51,8 +40,8 @@
      "discount":0,
      "status": "active",
      "tags_id": [],
-     "users_id": "6011cb729bb54c694dc6664b",
-     "product_subcategory_id": "6012edeff01d66153209f815"
+     "users_id": "601467625e924c66d9ae53d3",
+     "product_subcategory_id": "60166c9e09a8cb2f5bd6d0c7"
      },
      {
      "name": "Lampara",
@@ -62,8 +51,8 @@
      "discount":0,
      "status": "active",
      "tags_id": [],
-     "users_id": "6011cba29bb54c694dc6664c",
-     "product_subcategory_id": "6012edeff01d66153209f80c"
+     "users_id": "601467625e924c66d9ae53d3",
+     "product_subcategory_id": "60166c9e09a8cb2f5bd6d0c5"
      },
      {
      "name": "Harley",
@@ -73,8 +62,8 @@
      "discount":0,
      "status": "active",
      "tags_id": [],
-     "users_id": "6011cba29bb54c694dc6664c",
-     "product_subcategory_id": "6012edeff01d66153209f80b"
+     "users_id": "601467625e924c66d9ae53d3",
+     "product_subcategory_id": "60166c9e09a8cb2f5bd6d0c0"
      },
      {
       "name": "Bicycle",
@@ -85,6 +74,6 @@
      "status": "active",
      "tags_id": [],
      "users_id": "6011cbcd9bb54c694dc6664d",
-     "product_subcategory_id": "6012edeff01d66153209f809"
+     "product_subcategory_id": "60166c9e09a8cb2f5bd6d0be"
      }
  ]

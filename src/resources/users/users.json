@@ -1,0 +1,23 @@
+
+  [{
+        "email":"jreyes@gmail.com",
+        "password":"123456",
+        "urlImage": "",
+        "lastname": "Reyes",
+        "name": "Jorge",
+        "phone": 603384138,
+        "address": "Dirección Local",
+        "postalcode":"08923"
+  },
+  {
+    "email":"federico@gmail.com",
+    "password":"123456",
+    "urlImage": "",
+    "lastname": "Tiralongo",
+    "name": "Federico",
+    "phone": 603384130,
+    "address": "Dirección Local2",
+    "postalcode":"089233"
+}
+
+]

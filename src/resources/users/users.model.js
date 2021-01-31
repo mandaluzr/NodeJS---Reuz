@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 const userModelSchema = mongoose.Schema({
     email:String,
     password: String,
+    urlImage:String, 
     lastname: String,
     name: String,   
     phone:Number,

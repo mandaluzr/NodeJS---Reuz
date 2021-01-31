@@ -1,75 +1,75 @@
 [
     {
      "name": "Compacto",
-     "categories_id":"6011d2a878d6ec7c6f7acc6a"
+     "categories_id":"601468a35e924c66d9ae53d4"
     },
     {
       "name": "Sedan",
-      "categories_id":"6011d2a878d6ec7c6f7acc6a"
+      "categories_id":"601468a35e924c66d9ae53d4"
     },
     {
       "name": "Familiar",
-      "categories_id":"6011d2a878d6ec7c6f7acc6a"
+      "categories_id":"601468a35e924c66d9ae53d4"
     },
     {
       "name": "Turismo",
-      "categories_id":"6011d2a878d6ec7c6f7acc6a"
+      "categories_id":"601468a35e924c66d9ae53d4"
     },
     {
       "name": "Rústico",
-      "categories_id":"6011d2a878d6ec7c6f7acc6a"
+      "categories_id":"601468a35e924c66d9ae53d4"
     },
     {
       "name": "125",
-      "categories_id":"6011d1201883a476e44c31fc"
+      "categories_id":"601468a35e924c66d9ae53d5"
     },
     {
       "name": "300",
-      "categories_id":"6011d1201883a476e44c31fc"
+      "categories_id":"601468a35e924c66d9ae53d5"
     },
     {
       "name": "500",
-      "categories_id":"6011d1201883a476e44c31fc"
+      "categories_id":"601468a35e924c66d9ae53d5"
     },
     {
       "name": "Mueble",
-      "categories_id":"6011d2a878d6ec7c6f7acc6c"
+      "categories_id":"601468a35e924c66d9ae53d6"
     },
     {
       "name": "Cama",
-      "categories_id":"6011d2a878d6ec7c6f7acc6c"
+      "categories_id":"601468a35e924c66d9ae53d6"
     },
     {
       "name": "Silla",
-      "categories_id":"6011d2a878d6ec7c6f7acc6c"
+      "categories_id":"601468a35e924c66d9ae53d6"
     },
     {
       "name": "Mesa",
-      "categories_id":"6011d2a878d6ec7c6f7acc6c"
+      "categories_id":"601468a35e924c66d9ae53d6"
     },
     {
       "name": "Android",
-      "categories_id":"6011d2a878d6ec7c6f7acc6d"
+      "categories_id":"601468a35e924c66d9ae53d7"
     },
     {
       "name": "Iphone",
-      "categories_id":"6011d2a878d6ec7c6f7acc6d"
+      "categories_id":"601468a35e924c66d9ae53d7"
     },
     {
       "name": "Otros",
-      "categories_id":"6011d2a878d6ec7c6f7acc6d"
+      "categories_id":"601468a35e924c66d9ae53d7"
     },
     {
       "name": "Sobremesa",
-      "categories_id":"6011d2a878d6ec7c6f7acc6e"
+      "categories_id":"601468a35e924c66d9ae53d8"
     },
     {
       "name": "Portátil",
-      "categories_id":"6011d2a878d6ec7c6f7acc6e"
+      "categories_id":"601468a35e924c66d9ae53d8"
     },
     {
       "name": "Consola de Videojuego",
-      "categories_id":"6011d2a878d6ec7c6f7acc6e"
+      "categories_id":"601468a35e924c66d9ae53d8"
     }
 
 ]

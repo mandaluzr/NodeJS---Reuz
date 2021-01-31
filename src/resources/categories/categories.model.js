@@ -5,8 +5,8 @@ const categoryModelSchema = mongoose.Schema({
     name:String,
   });
 
-  // Compile model from schema 1/2
-  const Category = mongoose.model('CategoryModel', categoryModelSchema);
+// Compile model from schema 1/2
+const Category = mongoose.model('CategoryModel', categoryModelSchema);
 
 // Define model schema 2/2
 const subcategoryModelSchema = mongoose.Schema({
@@ -17,8 +17,8 @@ const subcategoryModelSchema = mongoose.Schema({
     },
   });  
 
-    // Compile model from schema 2/2
-  const Subcategory = mongoose.model('SubcategoryModel', subcategoryModelSchema);
+// Compile model from schema 2/2
+const Subcategory = mongoose.model('SubcategoryModel', subcategoryModelSchema);
 
 // CategoryModel's methods
 const createCategory = (category) => {

@@ -11,7 +11,8 @@ router
   .put(messagesController.updateMessage)
   .delete(messagesController.removeMessage)
 
-router.route('/:id/threadmessages').get(messagesController.getAllThreadmessagesByMessage).post(messagesController.createThreadmessage);
+router.route('/threadmessages').post(messagesController.createThreadmessage);
+router.route('/:id/threadmessages').get(messagesController.getAllThreadmessagesByMessage);
 
 router
   .route('/:id/threadmessages/:threadmessage_id')

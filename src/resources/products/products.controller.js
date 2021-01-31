@@ -13,6 +13,13 @@ const getAll = async (req, res) => {
     return res.status(404).end();
   };
   
+/*   const create = (req, res) => {
+    const creationDate = new Date();
+    const newproduct = {...req.body,created_at:creationDate,updated_at:creationDate};
+    const productsUpdated = productModel.create(newproduct);
+    return res.status(201).json(productsUpdated);
+  }; */
+
   const create = (req, res) => {
     const newproduct = req.body;
     const productsUpdated = productModel.create(newproduct);
@@ -20,7 +27,8 @@ const getAll = async (req, res) => {
   };
   
   const update = (req, res) => {
-    const updatedproduct = req.body;
+    const creationDate = new Date();
+    const updatedproduct = {...req.body,updated_at:creationDate};
     const productsUpdated = productModel.update(req.params.id, updatedproduct);
     return res.status(200).json(productsUpdated);
   };
