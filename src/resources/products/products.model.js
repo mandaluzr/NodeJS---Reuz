@@ -70,10 +70,22 @@ const remove = (id) => {
   });
 };
 
+const getBySubcategory = async (product_subcategory_id) => {
+  let query = { product_subcategory_id: product_subcategory_id };
+  return await Product.find(query);
+}
+
+const getByUser = async (users_id) => {
+  let query = { users_id: users_id };
+  return await Product.find(query);
+}
+
 module.exports = {
   create,
   getAll,
   getOne,
   update,
-  remove
+  remove,
+  getBySubcategory,
+  getByUser
 };
