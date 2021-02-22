@@ -1,4 +1,5 @@
 const userModel = require('./users.model');
+const { validationResult } = require('express-validator');
 
 const getAll = async (req, res) => {
     const users = await userModel.getAll();
@@ -12,8 +13,16 @@ const getAll = async (req, res) => {
     }
     return res.status(404).end();
   };
-  
+
   const create = (req, res) => {
+
+     // Finds the validation errors in this request and wraps them in an object with handy functions
+    const errors = validationResult(req);
+    console.log(errors);
+    if (!errors.isEmpty()) {
+      return res.status(400).json({ errors: errors.array() });
+    }
+
     const newuser = req.body;
     const usersUpdated = userModel.create(newuser);
     return res.status(201).json(usersUpdated);

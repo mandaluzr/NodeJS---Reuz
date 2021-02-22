@@ -4,6 +4,23 @@ const getAll = async (req, res) => {
     const products = await productModel.getAll();
     return res.status(200).json(products);
   };
+
+  const getProductsBySubcategory = async (req, res) => {
+
+    const subcategories_id = req.params.subcategory_id;
+    const filteredProducts = await productModel.getBySubcategory(subcategories_id);
+    return res.status(200).json(filteredProducts);
+  
+  };
+
+  const getProductsByUser = async (req, res) => {
+
+    const userId = req.params.userId;
+    const filteredProducts = await productModel.getByUser(userId);
+    return res.status(200).json(filteredProducts);
+  
+  };
+  
   
   const getOne = async (req, res) => {
     const product = await productModel.getOne(req.params.id);
@@ -51,6 +68,8 @@ const getAll = async (req, res) => {
     create,
     update,
     getAll,
+    getProductsBySubcategory,
+    getProductsByUser,
     getOne,
     remove,
   };
