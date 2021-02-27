@@ -9,6 +9,8 @@ const productModelSchema = mongoose.Schema({
     updated_at: mongoose.Schema.Types.Date,
     price: Number,
     discount: Number,
+    address:String,
+    postalcode:String,
     status:String,
     tags_id: [
       {
