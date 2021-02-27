@@ -20,4 +20,7 @@ router
   .put(messagesController.updateThreadmessage)
   .delete(messagesController.removeThreadmessage);
 
+  // http://localhost:5000/api/sender/xxxx/messages/yyyyyy/threadmessages
+  // http://localhost:5000/api/receiver/xxxx/messages/yyyyyy/threadmessages
+
 module.exports = router;

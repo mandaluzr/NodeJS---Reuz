@@ -12,7 +12,7 @@ router
   .put(categoriesController.updateCategory)
   .delete(categoriesController.removeCategory)
 
-router.route('/subcategories').post(categoriesController.createSubcategory);
+router.route('/subcategories').get(categoriesController.getAllSubcategories).post(categoriesController.createSubcategory);
 router.route('/:id/subcategories').get(categoriesController.getAllSubcategoriesByCategory);
 
 router
