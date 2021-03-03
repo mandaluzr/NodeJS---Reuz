@@ -23,7 +23,7 @@ const getAllMessages = async (req, res) => {
   };
   
   const getOneMessage = async (req, res) => {
-    const message = await messageModel.get(req.params.id);
+    const message = await messageModel.getOneMessage(req.params.id);
     if (message) {
       return res.status(200).json(message);
     }
@@ -64,7 +64,7 @@ const getAllMessages = async (req, res) => {
 
   
   const getOneThreadmessage = async (req, res) => {
-    const message = await messageModel.get(req.params.id);
+    const message = await messageModel.getOneThreadmessage(req.params.id);
     if (message) {
       return res.status(200).json(message);
     }
