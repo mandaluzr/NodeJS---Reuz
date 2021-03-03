@@ -22,9 +22,13 @@ const productModelSchema = mongoose.Schema({
       type: mongoose.Schema.Types.ObjectId,
       ref: 'UserModel',
     },
-    product_subcategory_id: {
+    product_category_id: {
       type: mongoose.Schema.Types.ObjectId,
       ref: 'CategoryModel',
+    },
+    product_subcategory_id: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'SubcategoryModel',
     },
   });
 
@@ -72,6 +76,11 @@ const remove = (id) => {
   });
 };
 
+const getByCategory = async (product_category_id) => {
+  let query = { product_category_id: product_category_id };
+  return await Product.find(query);
+}
+
 const getBySubcategory = async (product_subcategory_id) => {
   let query = { product_subcategory_id: product_subcategory_id };
   return await Product.find(query);
@@ -88,6 +97,7 @@ module.exports = {
   getOne,
   update,
   remove,
+  getByCategory,
   getBySubcategory,
   getByUser
 };

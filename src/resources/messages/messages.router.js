@@ -11,7 +11,7 @@ router
   .put(messagesController.updateMessage)
   .delete(messagesController.removeMessage)
 
-router.route('/threadmessages').post(messagesController.createThreadmessage);
+router.route('/all/threadmessages').get(messagesController.getAllThreadmessages).post(messagesController.createThreadmessage);
 router.route('/:id/threadmessages').get(messagesController.getAllThreadmessagesByMessage);
 
 router
@@ -20,7 +20,5 @@ router
   .put(messagesController.updateThreadmessage)
   .delete(messagesController.removeThreadmessage);
 
-  // http://localhost:5000/api/sender/xxxx/messages/yyyyyy/threadmessages
-  // http://localhost:5000/api/receiver/xxxx/messages/yyyyyy/threadmessages
 
 module.exports = router;
