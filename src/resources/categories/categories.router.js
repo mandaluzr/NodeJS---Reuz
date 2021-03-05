@@ -17,7 +17,7 @@ router.route('/:id/subcategories').get(categoriesController.getAllSubcategoriesB
 router.route('/:id/products').get(productsController.getProductsByCategory);
 
 router
-  .route('/:id/subcategories/:subcategory_id')
+  .route('/all/subcategories/:subcategory_id')
   .get(categoriesController.getOneSubcategory)
   .put(categoriesController.updateSubcategory)
   .delete(categoriesController.removeSubcategory);
