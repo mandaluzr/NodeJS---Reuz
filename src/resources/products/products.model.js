@@ -36,15 +36,17 @@ const productModelSchema = mongoose.Schema({
 // Compile model from schema
 const Product = mongoose.model('ProductModel', productModelSchema);
 
-const create = (product) => {
-  Product.create(product, function (err, docs) {
+const create = async (product) => {
+  /* Product.create(product, function (err, docs) {
     if (err) {
       console.log(err);
     } else {
       console.log('Created Docs : ', docs);
       return docs;
     }
-  });
+  }); */
+
+  return await Product.create(product);
 };
 
 const getAll = async () => {
