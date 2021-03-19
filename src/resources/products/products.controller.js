@@ -29,6 +29,12 @@ const getAll = async (req, res) => {
   
   };
   
+  const searchProducts = async (req, res) => {
+    const name = req.body.name;
+    const description = req.body.description
+    const filteredProducts = await productModel.getByName(name, description);
+    return res.status(200).json(filteredProducts);
+  };
   
   const getOne = async (req, res) => {
     const product = await productModel.getOne(req.params.id);
@@ -54,11 +60,6 @@ const getAll = async (req, res) => {
       }
     };
 
-/*   const create = (req, res) => {
-    const newproduct = req.body;
-    const productsUpdated = productModel.create(newproduct);
-    return res.status(201).json(productsUpdated);
-  }; */
   
   const update = (req, res) => {
     const creationDate = new Date();
@@ -79,6 +80,7 @@ const getAll = async (req, res) => {
     getProductsByCategory,
     getProductsBySubcategory,
     getProductsByUser,
+    searchProducts,
     getOne,
     remove,
   };
